@@ -1,0 +1,9 @@
+:root {
+  --background-color: radial-gradient(circle at center, #fff, #e5e5e5 100%);
+  --primary-colour: #e92569;
+  --primary-colour-hover: #fff;
+  --secondary-colour: #767676;
+  --third-colour: #000;
+  --headings-colour: #e92569;
+  --card-background: #fff;
+}

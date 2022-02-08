@@ -21,30 +21,6 @@ body {
   margin: 0;
 }
 
-footer {
-  display: flex;
-  flex-shrink: 0;
-  justify-content: space-between;
-  background-color: white;
-  margin-top: 2rem;
-  font-size: 16px;
-  font-weight: 500;
-  color: #767676;
-  padding: 0.5em;
-}
-
-footer a {
-  color: #767676;
-}
-
-footer a:hover {
-  color: var(--primary-colour);
-}
-
-footer i {
-  color: #767676;
-}
-
 .wrapper {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
@@ -70,3 +46,11 @@ footer .container {
   -ms-flex-align: center;
   align-items: center;
 }
+
+
+@media (max-width: 1000px) {
+.container-fluid {
+  max-width: 100%;
+  }
+}
+

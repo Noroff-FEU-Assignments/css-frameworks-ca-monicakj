@@ -30,3 +30,22 @@
   background-color: var(--primary-colour);
   transition: 0.5s;
 }
+
+.list-group-item {
+  background-color: transparent;
+  border: 0;
+  padding: 1rem;
+  margin-left: 67px;
+}
+
+.fas {
+  margin-right: 20px;
+  color: #767676;
+}
+
+@media (max-width: 1000px) {
+  .contact-form {
+    padding: 0;
+    margin-bottom: 240px;
+  }
+}

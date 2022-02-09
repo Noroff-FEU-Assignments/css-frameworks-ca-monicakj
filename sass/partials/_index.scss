@@ -1,0 +1,15 @@
+.card {
+  /* margin-top: 77px; */
+  /* margin-bottom: 250px; */
+  /* MÅ FIKSE DETTE I SASS */
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: $primary-color;
+}
+
+.nav-link:hover {
+  color: #495057;
+}

@@ -1,0 +1,62 @@
+nav {
+  .logo {
+    font-family: $heading-font;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  .navbar {
+    background-color: $nav-background;
+    font-family: $paragraph-font;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: black;
+    font-size: 16px;
+  }
+
+  .navbar-nav {
+    padding-left: 60px;
+  }
+
+  .nav-link {
+    margin-left: 10px;
+  }
+
+  .navbar .navbar-nav .active > .nav-link {
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  .navbar-collapse {
+    z-index: 1;
+  }
+
+  .btn-outline-success {
+    background-color: $primary-color;
+    color: white;
+    border: 0;
+  }
+
+  .btn-outline-success:hover {
+    background-color: $secondary-color;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar-nav {
+    padding: 35px 0 60px;
+    padding: 1rem;
+  }
+  .nav-link {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .active {
+    width: 100%;
+  }
+}

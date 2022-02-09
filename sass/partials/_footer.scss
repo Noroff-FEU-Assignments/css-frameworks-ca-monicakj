@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: $footer-background;
+  margin-top: 2rem;
+  font-size: 16px;
+  font-weight: 500;
+  color: $secondary-color;
+  padding: 0.5em;
+
+  a,
+  i {
+    color: $secondary-color;
+  }
+
+  a:hover,
+  .i:hover {
+    color: $primary-color;
+  }
+}

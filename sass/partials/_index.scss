@@ -14,7 +14,6 @@
   color: #495057;
 }
 
-// ACCORDION
 .index__container--bottom {
   margin-top: 77px;
   margin-bottom: 100px;
@@ -28,4 +27,19 @@
   padding-left: 10px;
   margin-right: 0px;
   color: black;
+}
+
+.col-md-4,
+.col-md-8 {
+  background: white;
+}
+
+.nav-tabs .nav-link {
+  background-color: white;
+  color: $primary-color;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: $secondary-color;
 }

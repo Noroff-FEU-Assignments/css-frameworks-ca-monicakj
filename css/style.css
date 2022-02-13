@@ -11751,6 +11751,21 @@ footer .fab {
   color: black;
 }
 
+.col-md-4,
+.col-md-8 {
+  background: white;
+}
+
+.nav-tabs .nav-link {
+  background-color: white;
+  color: #e92569;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #767676;
+}
+
 nav .logo {
   font-family: "Playfair Display", serif;
   font-style: italic;
@@ -11808,10 +11823,6 @@ nav .nav-item.active {
   background-color: white;
   color: #767676;
   border-radius: 3px;
-}
-
-nav .nav-link a {
-  padding-left: 20px;
 }
 
 @media (max-width: 1000px) {

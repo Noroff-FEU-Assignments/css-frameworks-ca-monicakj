@@ -1,0 +1,45 @@
+.card {
+  /* margin-top: 77px; */
+  /* margin-bottom: 250px; */
+  /* MÅ FIKSE DETTE I SASS */
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: $primary-color;
+}
+
+.nav-link:hover {
+  color: #495057;
+}
+
+.index__container--bottom {
+  margin-top: 77px;
+  margin-bottom: 100px;
+}
+
+.accordion__button {
+  font-family: $paragraph-font;
+}
+
+.share a {
+  padding-left: 10px;
+  margin-right: 0px;
+  color: black;
+}
+
+.col-md-4,
+.col-md-8 {
+  background: white;
+}
+
+.nav-tabs .nav-link {
+  background-color: white;
+  color: $primary-color;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: $secondary-color;
+}
